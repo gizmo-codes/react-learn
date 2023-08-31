@@ -25,3 +25,4 @@ export { Hello, Hello2, Hello3, Hello4 }
 
 // My fucntion calls are calling properly, but then afterwards...
 // These fucntions are being called twice at a time once each, with no invokation on my end why?
+// I'm calling them with <Hello/>, they're being called twice becuse React renders twice.
